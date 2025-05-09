@@ -1,6 +1,7 @@
 # Chiba Institute of Technology student (Japan)
 ## Belong to reRo
 Participating in the Micromouse Robotrace competition.
+Starting from the 2022 season.
 
 #### My X (Twitter) account
 https://x.com/tutui1084
