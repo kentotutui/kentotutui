@@ -1,10 +1,12 @@
-# Chiba Institute of Technology student
+# Chiba Institute of Technology student (Japan)
 ## Belongs to reRo
 Participating in the Micromouse Robotrace competition.
 
-My X (Twitter) link (https://x.com/tutui1084)
+###### My X (Twitter) account
+https://x.com/tutui1084
 
-My YouTube Channel (https://www.youtube.com/@tutuikento3550)
+###### My YouTube Channel
+https://www.youtube.com/@tutuikento3550
 
 ## Stats
 ![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=kentotutui&theme=nord_dark)
