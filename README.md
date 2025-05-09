@@ -1,9 +1,10 @@
-# 千葉工業大学の学生
-## 所属：reRo
-今は、マイクロマウスのロボトレース競技に参加中です。
+# Chiba Institute of Technology student
+## Belongs to reRo
+Participating in the Micromouse Robotrace competition.
 
-X(Twitter)は[こちら](https://x.com/tutui1084)
-YouTubeは[こちら](https://www.youtube.com/@tutuikento3550)
+My X (Twitter) link (https://x.com/tutui1084)
+
+My YouTube Channel (https://www.youtube.com/@tutuikento3550)
 
 ## Stats
 ![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=kentotutui&theme=nord_dark)
