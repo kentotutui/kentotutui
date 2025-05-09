@@ -1,11 +1,11 @@
 # Chiba Institute of Technology student (Japan)
-## Belongs to reRo
+## Belong to reRo
 Participating in the Micromouse Robotrace competition.
 
-###### My X (Twitter) account
+#### My X (Twitter) account
 https://x.com/tutui1084
 
-###### My YouTube Channel
+#### My YouTube Channel
 https://www.youtube.com/@tutuikento3550
 
 ## Stats
