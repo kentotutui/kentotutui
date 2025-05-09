@@ -14,5 +14,5 @@ X(Twitter)は[こちら](https://x.com/tutui1084)
 ![](http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=kentotutui&theme=nord_dark&utcOffset=9)
 
 ## Trophy
-![trophy](https://github-profile-trophy.vercel.app/?username=kentotutui&theme=nord_dark)
+[![trophy](https://github-profile-trophy.vercel.app/?username=kentotutui)](https://github.com/ryo-ma/github-profile-trophy)
 
