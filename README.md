@@ -2,9 +2,8 @@
 ## 所属：reRo
 今は、マイクロマウスのロボトレース競技に参加中です。
 
-基本めんどくさがり
-
 X(Twitter)は[こちら](https://x.com/tutui1084)
+YouTubeは[こちら](https://www.youtube.com/@tutuikento3550)
 
 ## Stats
 ![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=kentotutui&theme=nord_dark)
