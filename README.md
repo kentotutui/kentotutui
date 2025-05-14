@@ -10,15 +10,6 @@ https://x.com/tutui1084
 #### My YouTube Channel
 https://www.youtube.com/@tutuikento3550
 
-<p align="left">
-  <a href="https://github.com/kentotutui/kentotutui/">
-    <img src="https://komarev.com/ghpvc/?username=kentotutui" alt="kentotutui" />
-  </a>
-  <a href="https://x.com/tutui1084">
-    <img height="20" src="https://img.shields.io/twitter/follow/yutkat?label=Twitter&logo=twitter&style=flat" />
-  </a>
-</p>
-
 ## Stats
 ![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=kentotutui&theme=nord_dark)
 ![](http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=kentotutui&theme=nord_dark)
