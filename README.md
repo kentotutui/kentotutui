@@ -1,5 +1,6 @@
 # Chiba Institute of Technology student (Japan)
 ## Belong to reRo
+### Robotrace (Micromouse competition)
 Participating in the Micromouse Robotrace competition.
 Starting from the 2022 season.
 
