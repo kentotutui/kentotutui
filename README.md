@@ -6,6 +6,8 @@ Starting from the 2022 season.
 
 #### My X (Twitter) account
 https://x.com/tutui1084
+[![X](https://img.shields.io/badge/X-1DA1F2?logo=twitter&logoColor=white)](https://x.com/tutui1084)
+
 
 #### My YouTube Channel
 https://www.youtube.com/@tutuikento3550
