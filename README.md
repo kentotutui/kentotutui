@@ -28,5 +28,3 @@ https://www.youtube.com/@tutuikento3550
 
 ## Trophy
 [![trophy](https://github-profile-trophy.vercel.app/?username=kentotutui)](https://github.com/ryo-ma/github-profile-trophy)
-
-[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=kentotutui&show_icons=true&theme=tokyonight)](https://github.com/anuraghazra/github-readme-stats)
