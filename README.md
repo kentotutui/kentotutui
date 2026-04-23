@@ -1,4 +1,4 @@
-# Chiba Institute of Technology student (Japan)
+# Master's degree at Chiba Institute of Technology (Japan)
 ## Belong to reRo & RDCLAB (所属)
 ### Robotrace (Micromouse competition)
 Participating in the Micromouse Robotrace competition.
