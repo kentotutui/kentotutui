@@ -1,5 +1,5 @@
 # Chiba Institute of Technology student (Japan)
-## Belong to reRo & RDCLAB
+## Belong to reRo & RDCLAB (所属)
 ### Robotrace (Micromouse competition)
 Participating in the Micromouse Robotrace competition.
 Starting from the 2022 season.
@@ -10,7 +10,7 @@ https://x.com/tutui1084
 #### My YouTube Channel
 https://www.youtube.com/@tutuikento3550
 
-## Competition Awards
+## Competition Awards (受賞経歴)
 - Micromouse Robotrace Competition
     - [第46回全日本マイクロマウス大会 ロボトレース競技 第4位](https://www.ntf.or.jp/entry/2025/RobotEnt01.php?n&disp=2&n1#:~:text=%E3%83%AD%E3%83%9C%E3%83%88%E3%83%AC%E3%83%BC%E3%82%B9%E7%AB%B6%E6%8A%80%20Robotrace%20(Line%20Follower)%20%3A%20RT)
     - [第40回全日本学生マイクロマウス大会 ロボトレース競技 第2位](https://www.ntf.or.jp/entry/2025/RobotEnt03.php?n&disp=2&n1#:~:text=%E6%97%A9%E7%A8%B2%E7%94%B0%E5%A4%A7%E5%AD%A6%20WMMC-,%E3%83%AD%E3%83%9C%E3%83%88%E3%83%AC%E3%83%BC%E3%82%B9%E7%AB%B6%E6%8A%80%20%3A%20RT,-1%20%E3%80%80%20%E7%AC%AC%201)
@@ -19,6 +19,11 @@ https://www.youtube.com/@tutuikento3550
     - [第2回 reRo杯 ロボトレース競技 第2位](https://slime-mercury-c71.notion.site/2024-2-reRo-b03f5a0047d945658e39a635b2b6f596)
     - [第38回全日本学生マイクロマウス大会 ロボトレース競技 日本ロボット学会学生特別賞](https://www.ntf.or.jp/student2023/#gakkai)
 
+## Technical article (技術記事)
+- Micromouse Robotrace Competition
+    - [マイクロマウス2024シーズンを振り返って](https://tutui.hatenablog.com/?_gl=1*ael1cy*_gcl_au*MTI0MzE5MjUxNy4xNzY5NDk0MDQ2)
+    - [やりかけで放置しているショートカット走行](https://tutui.hatenablog.com/entry/2024/12/20/000000)
+    - [ロボトレ機体(設計・基盤制作)を一週間で作った話](https://tutui.hatenablog.com/entry/2023/12/15/000000)
 
 ## Stats
 ![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=kentotutui&theme=nord_dark)
