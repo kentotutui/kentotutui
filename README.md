@@ -1,14 +1,16 @@
 # Currently enrolled in the Master's program at Chiba Institute of Technology (Japan)
-## Belong to reRo & RDCLAB (所属)
-### Robotrace (Micromouse competition)
+### Belong to reRo & RDCLAB (所属)
+## Robotrace (Micromouse competition)
 Participating in the Micromouse Robotrace competition.
 Starting from the 2022 season.
 
-#### [My X (Twitter) account](https://x.com/tutui1084)
+## Social Media
 
-#### [My YouTube Channel](https://www.youtube.com/@tutuikento3550)
+### [My X (Twitter) account](https://x.com/tutui1084)
 
-##### [YouTube Micromouse Robotrace playlist](https://www.youtube.com/playlist?list=PL537i5LuteVQcgd7COIuCQoR-1UBaHUkY)
+### [My YouTube Channel](https://www.youtube.com/@tutuikento3550)
+
+#### [YouTube Micromouse Robotrace playlist](https://www.youtube.com/playlist?list=PL537i5LuteVQcgd7COIuCQoR-1UBaHUkY)
 
 ## Competition Awards (受賞経歴)
 - Micromouse Robotrace Competition
