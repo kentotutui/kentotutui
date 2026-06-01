@@ -4,11 +4,11 @@
 Participating in the Micromouse Robotrace competition.
 Starting from the 2022 season.
 
-#### My X (Twitter) account
-https://x.com/tutui1084
+#### [My X (Twitter) account](https://x.com/tutui1084)
 
-#### My YouTube Channel
-https://www.youtube.com/@tutuikento3550
+#### [My YouTube Channel](https://www.youtube.com/@tutuikento3550)
+
+##### [YouTube Micromouse Robotrace playlist](https://www.youtube.com/playlist?list=PL537i5LuteVQcgd7COIuCQoR-1UBaHUkY)
 
 ## Competition Awards (受賞経歴)
 - Micromouse Robotrace Competition
