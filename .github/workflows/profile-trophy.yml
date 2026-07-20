@@ -1,0 +1,92 @@
+name: GitHub-Profile-Trophy
+
+on:
+  schedule:
+    - cron: "17 3 * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: profile-readme-updates
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check and download trophy
+        id: trophy
+        shell: bash
+        run: |
+          set -uo pipefail
+
+          url="https://github-profile-trophy.vercel.app/?username=${GITHUB_REPOSITORY_OWNER}"
+          temporary_file="$(mktemp)"
+
+          if curl \
+            --fail \
+            --location \
+            --silent \
+            --show-error \
+            --max-time 60 \
+            --max-filesize 1000000 \
+            "$url" \
+            --output "$temporary_file" &&
+            grep --quiet --ignore-case '<svg' "$temporary_file" &&
+            ! grep --quiet --ignore-case --extended-regexp \
+              'ERROR|rate limited|DEPLOYMENT_DISABLED|Payment required' \
+              "$temporary_file"; then
+            mkdir -p assets
+            mv "$temporary_file" assets/github-profile-trophy.svg
+            echo "available=true" >> "$GITHUB_OUTPUT"
+          else
+            rm -f "$temporary_file"
+            echo "available=false" >> "$GITHUB_OUTPUT"
+            echo "Trophy service is not currently returning a valid SVG."
+          fi
+
+      - name: Add trophy section to README
+        if: steps.trophy.outputs.available == 'true'
+        shell: bash
+        run: |
+          awk '
+            /<!-- trophy:start -->/ {
+              print
+              print "## Trophy"
+              print ""
+              print "[![GitHub Profile Trophy](./assets/github-profile-trophy.svg)](https://github.com/ryo-ma/github-profile-trophy)"
+              updating = 1
+              next
+            }
+            /<!-- trophy:end -->/ {
+              updating = 0
+              print
+              next
+            }
+            !updating {
+              print
+            }
+          ' README.md > README.md.tmp
+          mv README.md.tmp README.md
+
+      - name: Commit updated trophy
+        if: steps.trophy.outputs.available == 'true'
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md assets/github-profile-trophy.svg
+
+          if git diff --cached --quiet; then
+            echo "Trophy is already up to date."
+            exit 0
+          fi
+
+          git commit -m "Update GitHub profile trophy"
+          git pull --rebase origin main
+          git push origin HEAD:main

@@ -6,8 +6,8 @@ on:
   workflow_dispatch:
 
 concurrency:
-  group: profile-summary-cards
-  cancel-in-progress: true
+  group: profile-readme-updates
+  cancel-in-progress: false
 
 jobs:
   build:

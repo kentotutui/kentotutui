@@ -33,3 +33,6 @@ Starting from the 2022 season.
 ![](./profile-summary-card-output/nord_dark/2-most-commit-language.svg)
 ![](./profile-summary-card-output/nord_dark/3-stats.svg)
 ![](./profile-summary-card-output/nord_dark/4-productive-time.svg)
+
+<!-- trophy:start -->
+<!-- trophy:end -->
