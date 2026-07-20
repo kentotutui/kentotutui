@@ -28,11 +28,8 @@ Starting from the 2022 season.
     - [ロボトレ機体(設計・基盤制作)を一週間で作った話](https://tutui.hatenablog.com/entry/2023/12/15/000000)
 
 ## Stats
-![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=kentotutui&theme=nord_dark)
-![](http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=kentotutui&theme=nord_dark)
-![](http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=kentotutui&theme=nord_dark)
-![](http://github-profile-summary-cards.vercel.app/api/cards/stats?username=kentotutui&theme=nord_dark)
-![](http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=kentotutui&theme=nord_dark&utcOffset=9)
-
-## Trophy
-[![trophy](https://github-profile-trophy.vercel.app/?username=kentotutui)](https://github.com/ryo-ma/github-profile-trophy)
+![](./profile-summary-card-output/nord_dark/0-profile-details.svg)
+![](./profile-summary-card-output/nord_dark/1-repos-per-language.svg)
+![](./profile-summary-card-output/nord_dark/2-most-commit-language.svg)
+![](./profile-summary-card-output/nord_dark/3-stats.svg)
+![](./profile-summary-card-output/nord_dark/4-productive-time.svg)
