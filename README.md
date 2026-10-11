@@ -34,5 +34,5 @@ Starting from the 2022 season.
 ![](./profile-summary-card-output/nord_dark/3-stats.svg)
 ![](./profile-summary-card-output/nord_dark/4-productive-time.svg)
 
-<!-- trophy:start -->
-<!-- trophy:end -->
+## Trophy
+[![GitHub trophies](./output/trophy.svg)](https://github.com/ryo-ma/github-profile-trophy)

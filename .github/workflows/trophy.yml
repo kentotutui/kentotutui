@@ -1,0 +1,65 @@
+name: GitHub Profile Trophy
+
+on:
+  schedule:
+    # 毎日09:00（JST）に更新
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - .github/workflows/trophy.yml
+
+concurrency:
+  group: profile-trophy
+  cancel-in-progress: false
+
+jobs:
+  trophy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Generate trophy
+        # 参考リポジトリと同じバージョンに固定
+        uses: Erik-Donath/github-profile-trophy@eb0893b31de06841663555d10aa43eb7cf27952f
+        with:
+          # 既存のprofile-summary-cardsと同じPATを使用
+          # contributionsCollectionの取得にはユーザー用トークンが必要
+          token: ${{ secrets.MY_GITHUB_TOKEN }}
+          username: ${{ github.repository_owner }}
+          file: output/trophy.svg
+          theme: nord
+          max-cols: 4
+          max-rows: 3
+          panel-size: 110
+          margin-width: 8
+          margin-height: 8
+          no-frame: true
+
+      - name: Commit and push trophy
+        # 他の画像更新ワークフローとの競合時はrebaseして再試行
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add output/trophy.svg
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          git commit -m "chore: update trophy"
+          for attempt in 1 2 3 4 5; do
+            if git pull --rebase --autostash origin main && git push origin HEAD:main; then
+              exit 0
+            fi
+            sleep "$((attempt * 5))"
+          done
+          echo "Failed to push trophy after 5 attempts"
+          exit 1
