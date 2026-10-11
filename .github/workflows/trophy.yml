@@ -36,7 +36,7 @@ jobs:
           username: ${{ github.repository_owner }}
           file: output/trophy.svg
           theme: nord
-          max-cols: 4
+          max-cols: 5
           max-rows: 3
           panel-size: 110
           margin-width: 8
